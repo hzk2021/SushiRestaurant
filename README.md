@@ -4,16 +4,16 @@ This is a responsive restaurant site created with JavaScript and Webpack for dyn
 
 ## [Live Demo](https://hzk2021.github.io/SushiRestaurant/)
 
-##### Home (Desktop)
+#### Home (Desktop)
 ![Preview](./preview/home.png)
 
-##### Menu (Desktop)
+#### Menu (Desktop)
 ![Preview](./preview/menu.png)
 
-##### Home (Mobile)
+#### Home (Mobile)
 <img src="./preview/home(mobile).png" width="50%"/>
 
-##### Menu (Mobile)
+#### Menu (Mobile)
 <img src="./preview/menu(mobile).png" width="50%" />
 
 ### Languages Used
