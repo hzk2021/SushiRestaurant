@@ -22,7 +22,6 @@ function createHeader() {
     <ul class="menu">
       <li id='home-btn'><a href=''>Home</a></li>
       <li id='menu-btn'><a href=''>Menu</a></li>
-      <li id='about-btn'><a href=''>About</a></li>
     </ul>
     `;
 
@@ -37,20 +36,39 @@ function createFooter() {
     return footerContainer;
 }
 
-export function bindingEvents(home_btn, menu_btn, about_btn) {
+function loadContent() {
+
+    const htmlBody = document.querySelector('body');
+    const footerDiv = document.querySelector('footer');
+    const contentDiv = document.querySelector('.content');
+    
+    contentDiv.remove();
+    
+    htmlBody.insertBefore(content, footerDiv);
+}
+
+export function bindingEvents(home_btn, menu_btn, about_btn, check_it_out_btn) {
     home_btn.addEventListener('click', () => {
+        e.preventDefault();
+
         content = createHomeContent();
-        initWebsite();
+        loadContent();
     });
 
-    menu_btn.addEventListener('click', () => {
+    menu_btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        
         content = createMenuContent();
-        initWebsite();
+        loadContent();
     });
 
-    about_btn.addEventListener('click', e => {
-        // content = createHomeContent();
+    check_it_out_btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        
+        content = createMenuContent();
+        loadContent();
     });
+
 }
 
 export function initWebsite() {
