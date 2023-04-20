@@ -11,10 +11,10 @@ Menu (Desktop)
 ![Preview](./preview/menu.png)
 
 Menu (Mobile)
-![Preview](./preview/menu.png)
+<img src="./preview/home(mobile).png" width="50%" />
 
 Menu (Mobile)
-![Preview](./preview/menu.png)
+<img src="./preview/menu(mobile).png" width="50%" />
 
 ### Languages Used
 
