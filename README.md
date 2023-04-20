@@ -10,11 +10,12 @@ Home (Desktop)
 Menu (Desktop)
 ![Preview](./preview/menu.png)
 
-Menu (Mobile)
-<img src="./preview/home(mobile).png" width="200px"/>
+Home (Mobile)
+![Preview](./preview/home(mobile).png) {:width="50%"}
+
 
 Menu (Mobile)
-<img src="./preview/menu(mobile).png" width="200px" />
+![Preview](./preview/menu(mobile).png) {:width="50%"}
 
 ### Languages Used
 
